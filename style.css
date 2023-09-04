@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Space+Mono:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100%;
+    height: 100hv;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(216, 12%, 8%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Overpass';
+}
+.main{
+    margin: 0 auto;
+    width: 320px;
+    background-color:hsl(213, 19%, 18%) ;
+    padding: 25px;
+    color: white;
+    border-radius: 20px;
+}
+.submission {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.star{
+    height: 15px;
+    width: 15px;
+} 
+img {
+    display: block;
+}
+.star-wrapper {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: hsl(216, 9%, 34%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-wrapper {
+    background-color: hsl(216, 9%, 34%);
+    width: 200px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+}
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    display: none;
+   
+}
+p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+.image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.rating{
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    color: white;
+    opacity: 0.5;
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    
+}
+.rating:hover{
+    opacity: 1;
+}
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    border: none;
+    width:100%;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+
+
